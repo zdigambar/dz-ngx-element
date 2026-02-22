@@ -1,6 +1,6 @@
 {
   "name": "@zdigambar/ngx-element",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "description": "A simple way to lazy load Angular components in non-angular projects",
   "author": "Digambar Zurkale",
   "repository": {
@@ -22,8 +22,8 @@
   ],
   "licence": "MIT",
   "peerDependencies": {
-    "@angular/common": "^19.2.18",
-    "@angular/core": "^19.2.18",
-    "@angular/elements": "^19.2.18"
+    "@angular/common": "^20.3.16",
+    "@angular/core": "^20.3.16",
+    "@angular/elements": "^20.3.16"
   }
 }
