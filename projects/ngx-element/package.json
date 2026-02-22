@@ -1,5 +1,5 @@
 {
-  "name": "@zdigambar/ngx-element",
+  "name": "@zdigambars/ngx-element",
   "version": "10.0.0",
   "description": "A simple way to lazy load Angular components in non-angular projects",
   "author": "Digambar Zurkale",
