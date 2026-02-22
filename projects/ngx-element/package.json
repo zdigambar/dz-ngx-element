@@ -1,6 +1,6 @@
 {
   "name": "@zdigambar/ngx-element",
-  "version": "8.0.0",
+  "version": "10.0.0",
   "description": "A simple way to lazy load Angular components in non-angular projects",
   "author": "Digambar Zurkale",
   "repository": {
@@ -15,15 +15,15 @@
     "angular",
     "elements",
     "angular elements",
-    "AEM with non angular 10,angular 11,angular 12,angular 13,angular 14,angular 15,angular 16","angular 17", "angular 18",
+    "AEM with non angular 10,angular 11,angular 12,angular 13,angular 14,angular 15,angular 16","angular 17", "angular 18","angular 19","angular 20",
     "web components",
     "lazy loading",
     "non-angular"
   ],
   "licence": "MIT",
   "peerDependencies": {
-    "@angular/common": "^18.2.13",
-    "@angular/core": "^18.2.13",
-    "@angular/elements": "^18.2.13"
+    "@angular/common": "^19.2.18",
+    "@angular/core": "^19.2.18",
+    "@angular/elements": "^19.2.18"
   }
 }

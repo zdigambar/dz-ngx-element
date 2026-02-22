@@ -1,9 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-sponsor',
-  templateUrl: './sponsor.component.html',
-  styleUrls: ['./sponsor.component.scss']
+    selector: 'app-sponsor',
+    templateUrl: './sponsor.component.html',
+    styleUrls: ['./sponsor.component.scss'],
+    standalone: false
 })
 export class SponsorComponent implements OnInit {
   @Input() image: string;

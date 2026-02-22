@@ -1,9 +1,10 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-talk',
-  templateUrl: './talk.component.html',
-  styleUrls: ['./talk.component.scss']
+    selector: 'app-talk',
+    templateUrl: './talk.component.html',
+    styleUrls: ['./talk.component.scss'],
+    standalone: false
 })
 export class TalkComponent implements OnInit {
   private _isTestMode = 'N';

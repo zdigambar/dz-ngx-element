@@ -17,9 +17,10 @@ import { merge, Subscription } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Component({
-  selector: 'lib-ngx-element',
-  template: `<ng-template #container></ng-template>`,
-  styles: [],
+    selector: 'lib-ngx-element',
+    template: `<ng-template #container></ng-template>`,
+    styles: [],
+    standalone: false
 })
 export class NgxElementComponent implements OnInit, OnDestroy {
   private ngElementEventsSubscription: Subscription;
